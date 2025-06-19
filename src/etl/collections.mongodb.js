@@ -9,13 +9,16 @@ db.createCollection(
                 required: [ 'Carro', 'Cor', 'Montadora' ],
                 properties: {
                     Carro: {
-                        bsonType: 'string'
+                        bsonType: 'string',
+                        maxLength: 50
                     },
                     Cor: {
-                        bsonType: 'string'
+                        bsonType: 'string',
+                        maxLength: 50
                     },
                     Montadora: {
-                        bsonType: 'string'
+                        bsonType: 'string',
+                        maxLength: 50
                     }
                 }
             }
@@ -34,10 +37,12 @@ db.createCollection(
                 required: [ 'Montadora', 'Pais' ],
                 properties: {
                     Montadora: {
-                        bsonType: 'string'
+                        bsonType: 'string',
+                        maxLength: 50
                     },
                     Pais: {
-                        bsonType: 'string'
+                        bsonType: 'string',
+                        maxLength: 50
                     }
                 }
             }

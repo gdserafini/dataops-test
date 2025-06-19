@@ -1,18 +1,6 @@
 [
   {
     "_id": [
-      "Alemanhã"
-    ],
-    "Carros": [
-      {
-        "Carro": "Polo",
-        "Cor": "Branco",
-        "Montadora": "Volkswagen"
-      }
-    ]
-  },
-  {
-    "_id": [
       "EUA"
     ],
     "Carros": [
@@ -26,7 +14,21 @@
         "Cor": "Vermelho",
         "Montadora": "Ford"
       }
-    ]
+    ],
+    "QntCarros": 2
+  },
+  {
+    "_id": [
+      "Alemanhã"
+    ],
+    "Carros": [
+      {
+        "Carro": "Polo",
+        "Cor": "Branco",
+        "Montadora": "Volkswagen"
+      }
+    ],
+    "QntCarros": 1
   },
   {
     "_id": [
@@ -38,7 +40,8 @@
         "Cor": "Prata",
         "Montadora": "Renault"
       }
-    ]
+    ],
+    "QntCarros": 1
   },
   {
     "_id": [
@@ -50,6 +53,7 @@
         "Cor": "Preto",
         "Montadora": "Honda"
       }
-    ]
+    ],
+    "QntCarros": 1
   }
 ]

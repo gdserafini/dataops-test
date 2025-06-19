@@ -32,7 +32,12 @@ const result = db.Carros.aggregate([
         }
     },
     {
-        $sort: { _id: 1 }
+        $addFields: {
+            "QntCarros": { $size: "$Carros" }
+        }
+    },
+    {
+        $sort: { "QntCarros": -1 }
     }
 ]).toArray();
 
