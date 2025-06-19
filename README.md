@@ -15,4 +15,4 @@ Para configurar e rodar o projeto e ainda exportar os resultados para .json, exe
 O arquivo run.sh contem todos os passos para executar a pipeline.
 Assim é possível verificar o resultado em ./src/database/result.json
 
-Exemplo de funcionamento: https://www.youtube.com/watch?v=1bcxvQN27R8
+Exemplo de funcionamento: https://youtu.be/Yu4F9Lj4WCk
