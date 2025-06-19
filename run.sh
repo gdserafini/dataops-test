@@ -20,4 +20,4 @@ mongosh < ./src/etl/collections.mongodb.js
 
 PYTHONPATH=./ python src/etl/populate.py
 
-mongosh ./src/etl/aggregations.mongodb.js > ./src/etl/result.json
+mongosh ./src/etl/aggregations.mongodb.js > ./src/etl/processed/result.json
